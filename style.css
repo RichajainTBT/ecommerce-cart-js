@@ -1,0 +1,50 @@
+#toast-container{
+    display: none
+}
+
+.count {
+    height: 25px;
+    display: inline-block;
+    background: red;
+    width: 25px;
+    position: absolute;
+    border-radius: 50%;
+    top: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.cart-product-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cart-product-details img {
+    height: 80px;
+    border-radius: 8px;
+}
+
+.right-align {
+    float: right
+}
+
+.category-img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-right {
+    text-align: right
+}
+
+.product-card a {
+    color: black;
+    text-decoration: none
+}
+.toast{
+    z-index: 999;
+}
